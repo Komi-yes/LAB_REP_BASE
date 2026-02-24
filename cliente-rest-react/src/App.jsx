@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API_URL = "http://localhost:8080/api/stocks";
+const API_URL = "http://localhost:8080/api/info";
 
 function formatChange(change, changePct) {
   const num = parseFloat(change);
